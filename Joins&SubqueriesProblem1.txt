@@ -1,0 +1,2 @@
+select b.starttime from cd.members as m inner join cd.bookings as b on m.memid = b.memid 
+where firstname = 'David' and surname= 'Farrell'
