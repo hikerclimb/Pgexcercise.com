@@ -1,0 +1,1 @@
+select starttime as start, cd.facilities.name from cd.bookings inner join cd.facilities on bookings.facid = facilities.facid where starttime:: date = '2012-09-21';
